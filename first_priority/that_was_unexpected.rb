@@ -4,6 +4,7 @@ class Person
   def initialize(name, candy_lover)
     @name = name
     @candy_lover = candy_lover
+
   end
 
   def tall?
@@ -24,6 +25,7 @@ class Person
     else
       10.times do
         "not a ballin candy lover"
+      end
     end
   end
 end
