@@ -1,7 +1,4 @@
 def snake_it_up(string)
-  if string[0] == "s"
-  10 * "s" + string
-  else
+  10.times { string.prepend('s') } if string[0] == "s"
   string
-  end
 end
