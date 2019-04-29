@@ -1,5 +1,7 @@
+
+
 class Person
-  attr_accessor :name, :candy_lover
+  attr_reader :name, :candy_lover
 
   def initialize(name, candy_lover)
     @name = name
@@ -15,7 +17,7 @@ class Person
   end
 
   def likes_candy?
-    true
+    @candy_lover = true
   end
 
   def ballin_candy_lover?
@@ -27,3 +29,6 @@ class Person
     end
   end
 end
+end
+
+
