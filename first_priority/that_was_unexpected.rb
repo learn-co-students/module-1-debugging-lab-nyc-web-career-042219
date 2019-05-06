@@ -7,15 +7,15 @@ class Person
   end
 
   def tall?
-    true
+    return true
   end
 
   def basketball_player?
-    false
+    return false
   end
 
   def likes_candy?
-    true
+    return true
   end
 
   def ballin_candy_lover?
@@ -24,6 +24,7 @@ class Person
     else
       10.times do
         "not a ballin candy lover"
+      end
     end
   end
 end
